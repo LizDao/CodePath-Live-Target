@@ -41,6 +41,12 @@ Step to recreate:
 1) The script ```<script>alert('AHAH!!')</script>``` to the feedback field in the contact form
 2) Once the user logged in and check the feedback section, the script will be executed
 
+Bonus: _Cross-Site Scripting__
+![GIF Walkthrough](https://github.com/LizDao/CodePath-Live-Target/blob/master/GIF/bonus_xss.gif)
+Step to recreate:
+1) This exploit is similar to the first vunerability
+2) The script ```<script>window.location.assign("https://ctf.codepath.com/")</script>``` to the feedback field in the contact form
+3) Once the user logged in and check the feedback section, the page will redirect to (https://ctf.codepath.com/)
 Vulnerability #2: _Username Enumerattion__
 ![GIF Walkthrough](https://github.com/LizDao/CodePath-Live-Target/blob/master/GIF/green_user_enumerate.gif)
 Step to recreate:
